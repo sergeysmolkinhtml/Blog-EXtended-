@@ -3,6 +3,8 @@
 use App\Http\Middleware\Authenticate;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+
+
 Route::view('/','index')->name('home');
 
 Route::get('/category/type/{id}',function (){

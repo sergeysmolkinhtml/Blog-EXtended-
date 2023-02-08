@@ -4,5 +4,6 @@
 
 @section('content')
 
-tujrtyiuiu
+       <span class="greetings"> Добро пожаловать в ITPEDIA </span>
+
 @endsection
