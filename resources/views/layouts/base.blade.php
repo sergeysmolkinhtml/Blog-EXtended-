@@ -8,7 +8,7 @@
     <title> @yield('page.title',config('app.name')) </title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="resources/css/index.css">
 </head>
 
 <body>
@@ -23,7 +23,6 @@
         @yield('content')
 
     </main>
-
 
     @include('includes.footer')
 </div>
